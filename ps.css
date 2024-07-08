@@ -1,0 +1,62 @@
+/* Header */
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: hsl(239, 100%, 50%);
+    margin: 0px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.child {
+    color: white;
+    width: 50%;
+    line-height: 0px;
+}
+
+.left {
+    background-color: hsl(215, 100%, 50%);
+}
+
+.right {
+    background-color: hsl(200, 100%, 50%);
+    text-align: end;
+}
+
+/* Links */
+
+a {
+    text-decoration: underline;
+    text-shadow: -0.25rem 0.25rem hsla(0, 0%, 100%, 0.5);
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    text-shadow: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.social {
+    text-shadow: 0.25rem 0.25rem hsla(0, 0%, 100%, 0.5);
+}
+
+/* Footer */
+
+footer {
+    padding: 0.25rem;
+}

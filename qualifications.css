@@ -1,0 +1,122 @@
+/* Header */
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: hsl(239, 100%, 50%);
+    margin: 0px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.child {
+    color: white;
+    width: 50%;
+    line-height: 0px;
+}
+
+.left {
+    background-color: hsl(215, 100%, 50%);
+}
+
+.right {
+    background-color: hsl(200, 100%, 50%);
+    text-align: end;
+}
+
+/* Links */
+
+a {
+    text-decoration: underline;
+    text-shadow: -0.25rem 0.25rem hsla(0, 0%, 100%, 0.5);
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    text-shadow: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.social {
+    text-shadow: 0.25rem 0.25rem hsla(0, 0%, 100%, 0.5);
+}
+
+.coursel {
+    color: black;
+}
+
+.coursel:visited {
+    color: black;
+}
+
+/* Main */
+
+main {
+    display: grid;
+    border: 1px solid  black;
+    grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+    column-gap: 0.25rem;
+    row-gap: 0.25rem;
+}
+
+.image {
+  grid-column: 1 / span 1;
+}
+
+.text {
+  grid-column: 2 / span 3;
+}
+
+.link {
+  grid-column: 5 / span 1;
+}
+
+.one {
+  grid-row: 1 / span 1;
+}
+
+.two {
+  grid-row: 2 / span 1;
+}
+
+.three {
+  grid-row: 3 / span 1;
+}
+
+.link p {
+    border: none;
+}
+
+p {
+    border: 2px solid black;
+    margin: 0px;
+    height: 100%;
+}
+
+img {
+    height: 10rem;
+}
+
+/* Footer */
+
+footer {
+    padding: 0.25rem;
+}
+
+footer p {
+    border: none;
+}
