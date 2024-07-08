@@ -55,6 +55,18 @@ a:hover {
     text-shadow: 0.25rem 0.25rem hsla(0, 0%, 100%, 0.5);
 }
 
+.mainl {
+    text-shadow: none;
+}
+
+.mainl:link {
+    color: black;
+}
+
+.mainl:visited {
+    color: black;
+}
+
 /* Footer */
 
 footer {
